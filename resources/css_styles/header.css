@@ -66,16 +66,10 @@ header {
 h1 {
    font-family: Unbounded;
    color: #535353;
-   font-size: clamp(14px, 2.75vw, 100px);
+   font-size: clamp(14px, 2vw, 100px);
    font-weight: 600;
 
    margin: 0px;
-}
-@media screen and (max-width: 640px) {
-  h1 {
-    color: #ff0000;
-    font-size: clamp(1px, 1vw, 100px);
-  }
 }
 
 
