@@ -73,6 +73,7 @@ h1 {
 }
 @media screen and (max-width: 640px) {
   h1 {
+    color: #ff0000;
     font-size: clamp(1px, 1vw, 100px);
   }
 }
