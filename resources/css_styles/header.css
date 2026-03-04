@@ -22,7 +22,7 @@ header {
 .header_left_buttons_horizontal_flexbox {
   display: flex;
   flex-direction: row;
-  column-gap: 0.8vw;
+  column-gap: 10%;
 }
 
 
@@ -37,6 +37,7 @@ header {
   box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.60);
   cursor: pointer;
   aspect-ratio: 1 / 1;
+  max-width: 45%;
 }
 
 .header_left_button_image {
