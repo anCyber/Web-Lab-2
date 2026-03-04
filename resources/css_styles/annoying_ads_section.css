@@ -48,7 +48,7 @@
               transition: all 1s;
 }
 .single_annoying_ad_vertical_flexbox:hover {
-  background-image: url("/resources/hypnotic.gif");
+  background-image: url("../hypnotic.gif");
   background-position: center;
   background-size: cover;
 }
