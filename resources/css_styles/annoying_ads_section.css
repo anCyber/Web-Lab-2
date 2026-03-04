@@ -165,11 +165,21 @@ h5 {
   aspect-ratio: 1 / 1;
   height: 3.2vw;
 }
+@media screen and (max-width: 640px) {
+  .annoying_ad_download_button_image {
+    height: 5.5vw;
+  }
+}
 
 .annoying_ad_download_button_text {
   font-family: Arial;
   font-size: clamp(1px, 2.95vw, 100px);
   color: rgba(255, 255, 255, 1.0);
+}
+@media screen and (max-width: 640px) {
+  .annoying_ad_download_button_text {
+    font-size: clamp(1px, 5vw, 100px);
+  }
 }
 
 .annoying_ad_download_button_additional_software_text {
@@ -183,7 +193,7 @@ h5 {
 }
 @media screen and (max-width: 640px) {
   .annoying_ad_download_button_additional_software_text {
-    font-size: clamp(1px, 1.35vw, 100px);
+    font-size: clamp(1px, 1.75vw, 100px);
     bottom: 0.9vh;
   }
 }

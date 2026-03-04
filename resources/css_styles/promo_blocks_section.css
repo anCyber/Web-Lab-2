@@ -65,7 +65,7 @@ h3 {
 }
 @media screen and (max-width: 640px) {
   h3 {
-    font-size: clamp(4px, 3.25vw, 100px);
+    font-size: clamp(4px, 3.8vw, 100px);
   }
 }
 
@@ -96,7 +96,7 @@ h3 {
 }
 @media screen and (max-width: 640px) {
   .advertisement_section_text {
-    font-size: clamp(4px, 1.7vw, 100px);
+    font-size: clamp(4px, 2.25vw, 100px);
   }
 }
 
@@ -174,7 +174,7 @@ li {
 }
 @media screen and (max-width: 640px) {
   li {
-    font-size: clamp(4px, 1.6vw, 100px);
+    font-size: clamp(4px, 2.1vw, 100px);
   }
 }
 
@@ -277,7 +277,7 @@ h4 {
 }
 @media screen and (max-width: 640px) {
   h4 {
-    font-size: clamp(4px, 1.9vw, 100px);
+    font-size: clamp(4px, 2.6vw, 100px);
   }
 }
 
@@ -290,6 +290,6 @@ h4 {
 }
 @media screen and (max-width: 640px) {
   .review_section_text {
-    font-size: clamp(4px, 1.3vw, 100px);
+    font-size: clamp(4px, 2vw, 100px);
   }
 }
