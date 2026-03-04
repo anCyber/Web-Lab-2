@@ -46,7 +46,7 @@ header {
 }
 @media screen and (max-width: 640px) {
   .header_left_button_image {
-    width: 5vw;
+    width: 4vw;
   }
 }
 
@@ -70,7 +70,7 @@ header {
 h1 {
    font-family: Unbounded;
    color: #535353;
-   font-size: clamp(14px, 2.8vw, 100px);
+   font-size: clamp(14px, 2.65vw, 100px);
    font-weight: 600;
 
    margin: 0px;
